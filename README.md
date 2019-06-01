@@ -28,10 +28,13 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
       ReactJS is a JavaScript library for building user interfaces for single page apps.  The main purpose of Reactjs is to be fast, scalable, and simple, when building user interfaces.  it allows developers to create reusable UI components.  Also, developers can create large web applications which can change data, without reloading the browser.
 
 - [ ] What does it mean to _think_ in react?
+      When building a single page application, to "think" in react is to first have a plan, a thought process.  First, break down the UI into components.  that is what react is all about, components.  draw boxes around every component and sub components in the design file provided by the designer (assuming one was provided) and name them.  Next, build a static version.  Then, identify the minimal rep of UI state, which means to make the UI interactive and functional, you need to make the changes to your model.  React makes it easy for developers with state.  Then, identify where your state should live.  Lastly, add inverse data flow.  What this basically means is to make your code understandable and readable. 
 
 - [ ] Describe state.
+      State is an object that represents the parts/components of the app that can change.  
 
 - [ ] Describe props.
+      Props are components that can be customized when they are created with different parameters.
 
 ## Project Set Up
 
